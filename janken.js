@@ -30,7 +30,7 @@ function getComputerChoice (){
 
 function determineWinner(userChoice, computerChoice) {
   if (userChoice === 'bomb') {
-    return 'You won!';
+    return 'You cheater, you won!';
   } 
   if (userChoice === computerChoice) {
     return 'The game is a tie!';
